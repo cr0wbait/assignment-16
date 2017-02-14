@@ -2,10 +2,45 @@
   box-sizing: border-box;
 }
 
+body {
+
+}
+
+footer {
+
+}
+
 .backsplash {
-  z-index: -1;
+  background-image: url(../images/tomato-red-silhouette.svg);
 }
 
 .theFinal {
-  
+  z-index: 2;
+  font-size: 50px;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputBar {
+  width: 75%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.inputBar input {
+  width: 50%;
+  height: auto;
+
+}
+
+.smash_me{
+  width: 25%;
+}
+
+.smash_me i {
+  text-decoration: none;
 }
