@@ -11,7 +11,7 @@ footer {
 }
 
 .backsplash {
-  background-image: url(../images/tomato-red-silhouette.svg);
+  background-image: url ("../images/tomato-red-silhouette.svg");
 }
 
 .theFinal {
