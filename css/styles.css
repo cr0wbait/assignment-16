@@ -3,15 +3,20 @@
 }
 
 body {
-
+  font-size: 0;
 }
 
 footer {
 
 }
 
+#app-container {
+  font-size: medium;
+  text-align: center;
+}
+
 .backsplash {
-  background-image: url ("../images/tomato-red-silhouette.svg");
+  background-image: none;
 }
 
 .theFinal {
@@ -29,18 +34,26 @@ footer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border: 0px;
 }
 
 .inputBar input {
   width: 50%;
   height: auto;
-
+  padding: 10px;
 }
 
 .smash_me{
-  width: 25%;
+  background-color: #003399;
+    border: none;
+    color: white;
+    padding: 5px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .smash_me i {
-  text-decoration: none;
+
 }
