@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-
+  font-size: medium;
 }
 
 #app-container {
@@ -17,6 +17,7 @@ footer {
   text-align: center;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .pomBackground {
@@ -37,17 +38,22 @@ footer {
   font-size: 100px;
 }
 
+.ongoing {
+  color: #000;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .inputBar {
   width: 75%;
   background-color: #fff;
   display: inline-block;
-  padding: ;
+  padding: 25px;
   border: 0px;
-  vertical-align: bottom;
 }
 
 .inputBar input {
-  width: 50%;
+  width: 70%;
   height: auto;
   margin: 0px;
   padding: 2px;
