@@ -6,6 +6,7 @@ body {
   font-size: 0;
   background-image: url('../images/tomato-red-silhouette.svg');
   background-size: 100%;
+  height: 100vh;
 }
 
 footer {
@@ -16,7 +17,7 @@ footer {
   font-size: medium;
   text-align: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
 }
 
@@ -25,11 +26,9 @@ footer {
 }
 
 .theFinal {
-  z-index: 2;
-  vertical-align: middle;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  bottom: 40%;
+  left: 37%;
 }
 
 .theFinal p {
@@ -38,18 +37,26 @@ footer {
   font-size: 100px;
 }
 
-.ongoing {
+#ongoing {
   color: #000;
+  width: 100%;
   font-weight: bold;
+  font-size: 25px;
   background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 37%;
+  left: 0;
 }
 
 .inputBar {
-  width: 75%;
+  width: 100%;
   background-color: #fff;
   display: inline-block;
   padding: 25px;
   border: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .inputBar input {
@@ -75,4 +82,10 @@ footer {
 
 .smash_me i {
 
+}
+
+.comp {
+  color: turquoise;
+  font-weight: bold;
+  font-size: 25px;
 }
